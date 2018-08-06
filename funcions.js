@@ -1,6 +1,6 @@
 var defaultTitol = 'Decision Helper';
 var idioma = '';
-var windowWidth = $( window ).width();
+var windowWidth = $(window).width();
 
 // CARREGA LES LLISTES DEL LOCALSTORAGE
 function load (lang) {
@@ -72,7 +72,21 @@ function load (lang) {
 		$('.botoMenuExterior').removeClass('hidden');
 	}
 
+	if (!localStorage.getItem('intro')) {
+		intro(1);
+	}
+
 	listeners();
+}
+
+// POPUP INTRO
+function intro (info) {
+	if (info === 1) {
+		$('.introPopup').removeClass('hidden');
+		localStorage.setItem('intro', true);
+	} else {
+		$('.introPopup').addClass('hidden');
+	}
 }
 
 // CANVI D'IDIOMA
