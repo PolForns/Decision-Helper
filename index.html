@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="shortcut icon" type="image/png" href="../images/faviconV2.png"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../styles.css">
+
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118980667-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-118980667-1');
+	</script>
+
+	<title>Decision Helper</title>
+</head>
+
+<body onload="load('ES')">
+	<div class="contingut">
+
+		<!--menu-->
+		<div class="botoMenu botoMenuExterior hidden" onclick="menu(1)">
+      <div class="bar arrow-top-r"></div>
+      <div class="bar arrow-middle-r"></div>
+      <div class="bar arrow-bottom-r"></div>
+		</div>
+		<div class="botoMenuExteriorMobile hidden"><span class="fas fa-bars" onclick="menu(1)"></span></div>
+
+		<div class="menu">
+			<div class="menuBarraSup">
+				<h2 class="titolMenu">Decision Helper</h2>
+				<span class="fas fa-arrow-right botoTancarMenu hvr-icon-spin" onclick="menu(2)"></span>
+				
+				<div class="idiomes">
+					<a onclick="canviIdioma('ES')" class="idiomaActiu">ES</a> | 
+					<a onclick="canviIdioma('CA')">CA</a> |
+					<a onclick="canviIdioma('EN')">EN</a>
+				</div>
+			</div>
+
+			<div class="menuCanviDecisio">
+				<h3>Decisiones</h3>
+				<ul>
+					<li><a class="menuLlistaDecisions"></a></li>
+				</ul>
+				<i>Próximamente múltiples decisiones!</i>
+			</div>
+
+
+			<div class="menuRecuadreInferior">
+				<div class="fraseMenu">
+					<div class="fas fa-quote-left quotes"></div>
+					<div class="fraseText"></div>
+					<div class="fas fa-quote-right quotes"></div>
+				</div>
+
+				<div class="infoVersio">v0.31 Beta &nbsp; | &nbsp; Web by <a href="http://www.polforns.com" target="_blank">Pol Forns</a></div>
+				<div onclick="resetStorage()" class="eliminarDecisio">Eliminar decisión actual</div>
+			</div>
+		</div>
+		<div class="bodyFoscMenu  hidden visuallyhidden" onclick="menu(2)"></div>
+		<!-- fi del menu-->
+
+		<h1 class="h1Titol">
+			<span id="titol" class="titol"></span>
+			<span class="fas fa-edit editTitelIcon noVisible" onclick="editTitol()"></span>
+		</h1>
+
+		<div class="mainContainer">
+			<div class="formTitol">
+				<form action="javascript:titol()">
+					<input type="text" name="inputTitol" id="inputTitol" class="inputTitol" placeholder="Titulo de la decision"><br><br>
+					<input type="submit" name="afegirTitol" class="button afegirTitolBoto" value="Añadir titulo">
+				</form>
+			</div>
+
+			<div class="formularis hidden">
+				<div class="botonsMotius">
+					<h3 class="titolAfegirMotiu">Añadir motivo</h3>
+					<button onclick="formularis(1)" class="button botoMotiuFavor">A favor</button>
+					<button onclick="formularis(2)" class="button botoMotiuContra">En contra</button>
+				</div>
+
+				<form action="javascript:motius(1)" class="formulari formFavor hidden">
+					<h3 class="titolFavorContra">Motivo a favor</h3>
+					<input type="text" name="motiu" class="textMotiuFavor" required="Camp Requerit" placeholder="Introduce el motivo brevemente">
+					<br><br>
+					<span>Importancia del motivo (1-10)</span><br>
+					<input type="range" min="1" max="10" step="1" value="0" id="rangeFavor" class="rangeFavor rangeInput"><br>
+					<span>Poco importante</span><input type="number" name="valorMotiu" id="valorMotiuFavor" class="valorMotiuFavor inputImportancia" required="Camp Requerit" min="1" max="10" value="0"><span>Muy importante</span>
+					<br><br>
+					<input type="submit" name="afegirMotiuFavor" value="Afegir Motiu" class="button">
+				</form>
+
+				<form action="javascript:motius(2)" class="formulari formContra hidden">
+					<h3 class="titolFavorContra">Motivo en contra</h3>
+					<input type="text" name="motiu" class="textMotiuContra" required="Camp Requerit" placeholder="Introduce el motivo brevemente">
+					<br><br>
+					<span>Importancia del motivo 1-10</span><br>
+					<input type="range" min="1" max="10" step="1" value="0" id="rangeContra" class="rangeContra rangeInput"><br>
+					<span>Poco importante</span><input type="number" name="valorMotiu" id="valorMotiuContra" class="valorMotiuContra inputImportancia" required="Camp Requerit" min="1" max="10" value="0"><span>Muy importante</span>
+					<br><br>
+					<input type="submit" name="afegirMotiuContra" value="Afegir Motiu" class="button">
+				</form>
+			</div>
+
+			<div class="llista hidden">
+				<div class="llistaCol llistaFavor">
+					<h2>Motivos a favor</h2>
+					<ul class="llistaElements elementsLlistaFavor"></ul>
+				</div>
+				<div class="llistaCol llistaContra">
+					<h2>Motivos en contra</h2>
+					<ul class="llistaElements elementsLlistaContra"></ul>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="resultats hidden">
+			<h2 class="fesoONO"></h2>
+		</div>
+	</div>
+
+	<footer>
+		<button onclick="resultat(1)" class="botoResultats botonsResultats">Vale la pena?</button>
+		<button onclick="resultat(2)" class="botoEnrreraResultats botonsResultats hidden">Atrás</button>
+	</footer>
+
+	<script type="text/javascript" src="../funcions.js"></script>
+
+</body>
+</html>

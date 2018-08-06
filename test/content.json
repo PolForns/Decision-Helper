@@ -1,0 +1,69 @@
+{
+	"CA": {
+		"frasesInfo": [
+			"<p class='textFrases'>No sóc producte de les meves circumstàncies, sóc producte de les meves decisions</p><br><i class='autorFrases'>Steven Covey</i>",
+			"<p class='textFrases'>És en els moments de decisió quan es forma el teu destí</p><br><i class='autorFrases'>Tony Robbins</i>",
+			"<p class='textFrases'>A vegades prens la decisió correcta, a vegades fas que la decisió sigui correcte</p><br><i class='autorFrases'>Phil McGraw</i>",
+			"<p class='textFrases'>El risc d'una decisió incorrecta és preferible al terror de la indecisió</p><br><i class='autorFrases'>Maimonides</i>",
+			"<p class='textFrases'>Com pots saber si és la decisió correcta si mai la prens?</p><br><i class='autorFrases'>Anònim</i>",
+			"<p class='textFrases'>En què passem el temps és probablement la decisió més important que prenem</p><br><i class='autorFrases'>Ray Kurzweil</i>"
+		],
+		"frasesFinals": {
+			"no": [
+				"NO VAL LA PENA"
+			],
+			"casiNo": [
+				"PER POC, PERÒ NO"
+			],
+			"empat": [
+				"EMPAT!<br>AIXI NO ENS EN SORTIREM NO..."
+			],
+			"casiSi": [
+				"PER POC, PERÒ SI!"
+			],
+			"si": [
+				"ENDAVANT, DE CAP!"
+			]
+		}
+	},
+	"ES": {
+		"frasesInfo": [
+			"No soy producto de mis circumstancias, soy producto de mis decisiones",
+			"Es en los momentos de decisión cuando se forma tu destino",
+			"A veces tomas la decisión correcta, a veces haces que la decisión sea correcta",
+			"El riesgo de una decisión incorrecta es preferible al terror de la indecisión",
+			"¿Cómo puedes saber si es la decisión correcta si nunca la tomas?",
+			"En qué pasamos el tiempo es probablemente la decisión más importante que tomamos"
+		],
+		"frasesFinals": {
+			"no": [
+			],
+			"casiNo": [
+			],
+			"empat": [
+			],
+			"casiSi": [
+			],
+			"si": [
+			]
+		}
+	},
+	"EN": {
+		"frasesInfo": [
+			"I am not a product of my circumstances, I am the product of my decisions",
+			"It is at the moment of decision when your destiny is formed"
+		],
+		"frasesFinals": {
+			"no": [
+			],
+			"casiNo": [
+			],
+			"empat": [
+			],
+			"casiSi": [
+			],
+			"si": [
+			]
+		}
+	}
+}

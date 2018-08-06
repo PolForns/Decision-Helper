@@ -1,0 +1,131 @@
+{
+	"CA": {
+		"frasesInfo": [
+			"<p class='textFrases'>No sóc producte de les meves circumstàncies, sóc producte de les meves decisions</p><br><i class='autorFrases'>Steven Covey</i>",
+			"<p class='textFrases'>És en els moments de decisió quan es forma el teu destí</p><br><i class='autorFrases'>Tony Robbins</i>",
+			"<p class='textFrases'>A vegades prens la decisió correcta, a vegades fas que la decisió sigui correcte</p><br><i class='autorFrases'>Phil McGraw</i>",
+			"<p class='textFrases'>El risc d'una decisió incorrecta és preferible al terror de la indecisió</p><br><i class='autorFrases'>Maimonides</i>",
+			"<p class='textFrases'>Com pots saber si és la decisió correcta si mai la prens?</p><br><i class='autorFrases'>Anònim</i>",
+			"<p class='textFrases'>En què passem el temps és probablement la decisió més important que prenem</p><br><i class='autorFrases'>Ray Kurzweil</i>",
+			"<p class='textFrases'>Concisió en l'estil, precisió en el pensamient, decisió a la vida</p><br><i class='autorFrases'>Victor Hugo</i>",
+			"<p class='textFrases'>Pensa 100 vegades abans de pendre una decisió. Però una vegada que la decisió esta presa, mantente en peu</p><br><i class='autorFrases'>Muhammad Ali Jinnah</i>",
+			"<p class='textFrases'>La presa de decisions realment exitosa recau en un equilibri entre pensamient deliberat i intuïtiu</p><br><i class='autorFrases'>Malcolm Gladwell</i>",
+			"<p class='textFrases'>No pots canviar el teu destí d'un dia per un altre, però pots canviar la teva direcció d'un dia par un altre</p><br><i class='autorFrases'>Jim Rohn</i>",
+			"<p class='textFrases'>No hi ha decisió que poguem pendre que no vingui amb algun tipus d'equilibri o sacrifici</p><br><i class='autorFrases'>Simon Sinek</i>",
+			"<p class='textFrases'>Quant prens la decisió correcte, no importa realment el que altres pensin</p><br><i class='autorFrases'>Caroline Kennedy</i>",
+			"<p class='textFrases'>Mantente compromès amb les teves decisions, però flexible en l'enfocament</p><br><i class='autorFrases'>Tony Robbins</i>",
+			"<p class='textFrases'>Una bona decisió està basada en coneixament i no en números</p><br><i class='autorFrases'>Platón</i>",
+			"<p class='textFrases'>A vegades qualsevol decisió, incluïda la decisió incorrecte, és millor que cap decisió</p><br><i class='autorFrases'>Ben Horowitz</i>",
+			"<p class='textFrases'>El més dur del camí no pres és que mai saps a ón hauria pogut arribar</p><br><i class='autorFrases'>Lisa Wingate</i>",
+			"<p class='textFrases'>La gent no exitosa pren decisions basades en la seva situació actual, la gente exitosa pren decisions basades en ón volen estar</p><br><i class='autorFrases'>Anónimo</i>",
+			"<p class='textFrases'>Una decisió real es mesura per el fét de que has pres una nova acció. Si no hi ha acció, no has decidit realment</p><br><i class='autorFrases'>Tony Robbins</i>",
+			"<p class='textFrases'>Si sempre prens la decisió correcte, la segura, la que toma todo el mundo, sempre seràs el mateix que tots los damés</p><br><i class='autorFrases'>Paul Arden</i>",
+			"<p class='textFrases'>Tota meta comença amb la decisió de intentar-ho</p><br><i class='autorFrases'>Anónimo</i>",
+			"<p class='textFrases'>Qualsevol cosa que decideixis fer, assegure't de que et fa feliç</p><br><i class='autorFrases'>Anónimo</i>",
+			"<p class='textFrases'>Quant més estimes a les teves decisions, menys necessites que altres las estimin</p><br><i class='autorFrases'>Anónimo</i>"
+		],
+		"frasesFinals": {
+			"no": [
+				"NO VAL LA PENA"
+			],
+			"casiNo": [
+				"PER POC, PERÒ NO"
+			],
+			"empat": [
+				"EMPAT!<br>AIXÍ NO ANEM BÉ NO..."
+			],
+			"casiSi": [
+				"PER POC, PERÒ SI!"
+			],
+			"si": [
+				"ENDAVANT, DE CAP!"
+			]
+		}
+	},
+	"ES": {
+		"frasesInfo": [
+			"<p class='textFrases'>No soy producto de mis circumstancias, soy producto de mis decisiones</p><br><i class='autorFrases'>Steven Covey</i>",
+			"<p class='textFrases'>Es en los momentos de decisión cuando se forma tu destino</p><br><i class='autorFrases'>Tony Robbins</i>",
+			"<p class='textFrases'>A veces tomas la decisión correcta, a veces haces que la decisión sea correcta</p><br><i class='autorFrases'>Phil McGraw</i>",
+			"<p class='textFrases'>El riesgo de una decisión incorrecta es preferible al terror de la indecisión</p><br><i class='autorFrases'>Maimonides</i>",
+			"<p class='textFrases'>¿Cómo puedes saber si es la decisión correcta si nunca la tomas?</p><br><i class='autorFrases'>Anonimo</i>",
+			"<p class='textFrases'>En qué pasamos el tiempo es probablemente la decisión más importante que tomamos</p><br><i class='autorFrases'>Ray Kurzweil</i>",
+			"<p class='textFrases'>Concisión en el estilo, precisión en el pensamiento, decisión en la vida</p><br><i class='autorFrases'>Victor Hugo</i>",
+			"<p class='textFrases'>Piensa 100 veces antes de tomar una decisión. Pero una vez que la decisión es tomada, manténte en pie</p><br><i class='autorFrases'>Muhammad Ali Jinnah</i>",
+			"<p class='textFrases'>La toma de decisiones realmente exitosa reside en un equilibrio entre pensamiento deliberado e intuitivo</p><br><i class='autorFrases'>Malcolm Gladwell</i>",
+			"<p class='textFrases'>No puedes cambiar tu destino de un día para otro, pero puedes cambiar tu dirección de un día para otro</p><br><i class='autorFrases'>Jim Rohn</i>",
+			"<p class='textFrases'>No hay decisión que podamos tomar que no venga con algún tipo de equilibrio o sacrificio</p><br><i class='autorFrases'>Simon Sinek</i>",
+			"<p class='textFrases'>Cuando tomas la decisión correcta, no importa realmente lo que otros piensan</p><br><i class='autorFrases'>Caroline Kennedy</i>",
+			"<p class='textFrases'>Manténte comprometido en tus decisiones, pero flexible en tu enfoque</p><br><i class='autorFrases'>Tony Robbins</i>",
+			"<p class='textFrases'>Una buena decisión esta basada en conocimiento y no en números</p><br><i class='autorFrases'>Platón</i>",
+			"<p class='textFrases'>A menudo cualquier decisión, incluso la decisión incorrecta, es mejor que ninguna decisión</p><br><i class='autorFrases'>Ben Horowitz</i>",
+			"<p class='textFrases'>Lo más duro del camino no tomado es que nunca sabes dónde podía haber llegado</p><br><i class='autorFrases'>Lisa Wingate</i>",
+			"<p class='textFrases'>La gente no exitosa toma decisiones basadas en su situación actual, la gente exitosa toma decisiones basadas en dónde quieren estar</p><br><i class='autorFrases'>Anónimo</i>",
+			"<p class='textFrases'>Una decisión real se mide por el hecho de que has tomado una nueva acción. Si no hay acción, no has decidido realmente</p><br><i class='autorFrases'>Tony Robbins</i>",
+			"<p class='textFrases'>Si siempre tomas la decisión correcta, la segura, la que toma todo el mundo, siempre serás lo mismo que todos los demás</p><br><i class='autorFrases'>Paul Arden</i>",
+			"<p class='textFrases'>Todo logro comienza con la decisión de intentarlo</p><br><i class='autorFrases'>Anónimo</i>",
+			"<p class='textFrases'>Cualquier cosa que decidas hacer, asegúrate de que te hace feliz</p><br><i class='autorFrases'>Anónimo</i>",
+			"<p class='textFrases'>Cuanto más amas a tus decisiones, menos necesitas que otros las amen</p><br><i class='autorFrases'>Anónimo</i>"
+		],
+		"frasesFinals": {
+			"no": [
+				"NO VALE LA PENA"
+			],
+			"casiNo": [
+				"POR POCO, PERO NO"
+			],
+			"empat": [
+				"EMPATE!<br>ASI NO VAMOS BIEN..."
+			],
+			"casiSi": [
+				"POR POCO, PERO SI!"
+			],
+			"si": [
+				"ADELANTE, DE CABEZA!"
+			]
+		}
+	},
+	"EN": {
+		"frasesInfo": [
+			"<p class='textFrases'>I am not a product of my circumstances, I am the product of my decisions</p><br><i class='autorFrases'>Steven Covey</i>",
+			"<p class='textFrases'>It is at the moment of decision when your destiny is formed</p><br><i class='autorFrases'>Tony Robbins</i>",
+			"<p class='textFrases'>Sometimes you make the right decision, sometimes you make the decision correct</p><br><i class='autorFrases'>Phil McGraw</i>",
+			"<p class='textFrases'>The risk of an incorrect decision is preferable to the terror of indecision</p><br><i class='autorFrases'>Maimonides</i>",
+			"<p class='textFrases'>How can you know if it is the right decision if you never take it?</p><br><i class='autorFrases'>Anonymous</i>",
+			"<p class='textFrases'>What we spend time on is probably the most important decision we make</p><br><i class='autorFrases'>Ray Kurzweil</i>",
+			"<p class='textFrases'>Concision in style, precision in thinking, decision in life</p><br><i class='autorFrases'>Victor Hugo</i>",
+			"<p class='textFrases'>Think 100 times before making a decision. But once the decision is made, keep standing</p><br><i class='autorFrases'>Muhammad Ali Jinnah</i>",
+			"<p class='textFrases'>Really successful decision making resides in a balance between deliberate and intuitive thinking</p><br><i class='autorFrases'>Malcolm Gladwell</i>",
+			"<p class='textFrases'>You can not change your destiny from one day to the next, but you can change your direction from one day to the next</p><br><i class='autorFrases'>Jim Rohn</i>",
+			"<p class='textFrases'>There is no decision we can make that does not come with some kind of balance or sacrifice</p><br><i class='autorFrases'>Simon Sinek</i>",
+			"<p class='textFrases'>When you make the right decision, it does not really matter what others think</p><br><i class='autorFrases'>Caroline Kennedy</i>",
+			"<p class='textFrases'>Stay committed to your decisions, but flexible in your approach</p><br><i class='autorFrases'>Tony Robbins</i>",
+			"<p class='textFrases'>A good decision is based on knowledge and not on numbers</p><br><i class='autorFrases'>Platón</i>",
+			"<p class='textFrases'>Often any decision, even the wrong one, is better than no decision</p><br><i class='autorFrases'>Ben Horowitz</i>",
+			"<p class='textFrases'>The hardest part of the road not taken is that you never know where you could have arrived</p><br><i class='autorFrases'>Lisa Wingate</i>",
+			"<p class='textFrases'>Unsuccessful people make decisions based on their current situation, successful people make decisions based on where they want to be</p><br><i class='autorFrases'>Anonymous</i>",
+			"<p class='textFrases'>A real decision is measured by the fact that you have taken a new action. If there is no action, you have not really decided</p><br><i class='autorFrases'>Tony Robbins</i>",
+			"<p class='textFrases'>If you always make the right decision, the safe one, the one that everyone takes, you will always be the same as everyone else</p><br><i class='autorFrases'>Paul Arden</i>",
+			"<p class='textFrases'>All achievement begins with the decision to try</p><br><i class='autorFrases'>Anonymous</i>",
+			"<p class='textFrases'>Whatever you decide to do, make sure it makes you happy</p><br><i class='autorFrases'>Anonymous</i>",
+			"<p class='textFrases'>The more you love your decisions, less you need others to love them</p><br><i class='autorFrases'>Anonymous</i>"			
+		],
+		"frasesFinals": {
+			"no": [
+				"IT'S NOT WORTH"
+			],
+			"casiNo": [
+				"IT WAS CLOSE BUT NO"
+			],
+			"empat": [
+				"TIE!<br>WE WON'T MAKE A CHOICE IN THAT WAY..."
+			],
+			"casiSi": [
+				"IT WAS CLOSE BUT YES!"
+			],
+			"si": [
+				"GO AHEAD!"
+			]
+		}
+	}
+}
