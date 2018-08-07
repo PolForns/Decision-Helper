@@ -63,7 +63,7 @@
 					<div class="fas fa-quote-right quotes"></div>
 				</div>
 
-				<div class="infoVersio">v0.31 Beta &nbsp; | &nbsp; Web by <a href="http://www.polforns.com" target="_blank">Pol Forns</a></div>
+				<div class="infoVersio">v0.32 Beta &nbsp; | &nbsp; Web by <a href="http://www.polforns.com" target="_blank">Pol Forns</a></div>
 				<div onclick="resetStorage()" class="eliminarDecisio">Eliminar decisió actual</div>
 			</div>
 		</div>
@@ -78,8 +78,8 @@
 		<div class="mainContainer">
 			<div class="formTitol">
 				<form action="javascript:titol()">
-					<input type="text" name="inputTitol" id="inputTitol" class="inputTitol" placeholder="Titulo de la decision"><br><br>
-					<input type="submit" name="afegirTitol" class="button afegirTitolBoto" value="Añadir titulo">
+					<input type="text" name="inputTitol" id="inputTitol" class="inputTitol" placeholder="Titol de la decisió"><br><br>
+					<input type="submit" name="afegirTitol" class="button afegirTitolBoto" value="Afegir títol">
 				</form>
 			</div>
 
@@ -92,7 +92,7 @@
 
 				<form action="javascript:motius(1)" class="formulari formFavor hidden">
 					<h3 class="titolFavorContra">Motiu a favor</h3>
-					<input type="text" name="motiu" class="textMotiuFavor" required="Camp Requerit" placeholder="Introduce el motivo brevemente">
+					<input type="text" name="motiu" class="textMotiuFavor" required="Camp Requerit" placeholder="Introdueix el motiu breument">
 					<br><br>
 					<span>Importància del motiu (1-10)</span><br>
 					<input type="range" min="1" max="10" step="1" value="0" id="rangeFavor" class="rangeFavor rangeInput"><br>
@@ -103,7 +103,7 @@
 
 				<form action="javascript:motius(2)" class="formulari formContra hidden">
 					<h3 class="titolFavorContra">Motiu en contra</h3>
-					<input type="text" name="motiu" class="textMotiuContra" required="Camp Requerit" placeholder="Introduce el motivo brevemente">
+					<input type="text" name="motiu" class="textMotiuContra" required="Camp Requerit" placeholder="Introdueix el motiu breument">
 					<br><br>
 					<span>Importància del motiu 1-10</span><br>
 					<input type="range" min="1" max="10" step="1" value="0" id="rangeContra" class="rangeContra rangeInput"><br>
@@ -134,6 +134,36 @@
 	<footer>
 		<button onclick="resultat(1)" class="botoResultats botonsResultats">Val la pena?</button>
 		<button onclick="resultat(2)" class="botoEnrreraResultats botonsResultats hidden">Enrere</button>
+
+		<!-- POPUPS -->
+		<div class="introPopup hidden">
+			<div class="introPopupInner">
+				<h2>Benbingut/a a Decision Helper!</h2>
+				<p>Decision Helper es una herramienta que te ayuda a tomar las mejores decisiones personales y profesionales!</p>
+				<br>
+				<h3>¿Cómo lo uso?</h3>
+				<p>
+					Para empezar a tomar una decisión primera tienes que escribirla en forma de título.
+				</p>
+				<p>
+					A continuación tienes que añadir los motivos a favor y en contra que tienes para tomar dicha decisión y darles una importancia dentro de la decisión del 1 al 10.
+				</p>
+				<p>
+					Cuanto hayas introducido todos los motivos que tengas para tomar la decisión dale el botón de "¿Vale la pena?" y la aplicación calculará si el resultado es favorable o no!
+				</p>
+				<p>
+					Si no te gusta algún motivo de los que has introducido lo puedes quitar dandole al icono de la cruz al lado de cada motivo.
+				</p>
+				<p>
+					No tienes que introducir todos los motivos de golpe! La página guardará tu decisión intacta para que le puedas seguir añadiendo o quitando motivos.
+				</p>
+				<p>
+					La aplicación muestra los motivos a favor y en contra pero no la importancia de cada uno de ellos para que tengas una opinión objetiva de tu decisión.
+				</p>
+				<br>
+				<button class="button" onclick="intro(2)">Endavant!</button>
+			</div>
+		</div>
 	</footer>
 
 	<script type="text/javascript" src="../funcions.js"></script>
